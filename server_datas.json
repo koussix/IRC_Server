@@ -1,0 +1,11 @@
+{ 
+    "IRC-main" : {
+        "host" : "localhost",
+        "port" : 8084
+    },  
+    
+    "IRC-2" : {
+        "host" : "localhost",
+        "port" : 8085
+    }
+}

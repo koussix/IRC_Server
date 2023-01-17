@@ -97,6 +97,7 @@ class Client_GUI(tk.Tk):
             message = self.client.client.recv(1024).decode('utf-8')
             if message == "/quit":
                 self.client.close()
+                super().destroy()
                 break
             else:
                 #self.messages_queue.put(message)
